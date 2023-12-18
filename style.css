@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'VT323', monospace;
+    text-align: center;
+    background: #dab1c7;
+    color: #7cb6a8;
+}
+
+h1 {
+    font-size: 4.5rem;
+    margin: 2rem 0 0.5rem;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 2px #1f1030;
+}
+
+#supportText {
+    font-size: 2.5rem;
+    margin: 0.5rem;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 2px #1f1030;
+    color: #b0679d;
+}
+
+#score {
+    font-size: 2.3rem;
+    margin: 0.5rem;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 1px #1f1030;
+    color: #b0679d;
+}
+
+#startAgain {
+    margin: 0.5rem;
+    padding: 0.7rem;
+    font-family: inherit;
+    font-size: 2rem;
+    border-radius: 10px;
+    border: none;
+    background: #7cb6a8;
+    color: #1f1030;
+    box-shadow: 3px 3px 3px #1f1030;
+    cursor: pointer;
+}
+
+#startAgain:hover {
+    background: #1f1030;
+    color: #7cb6a8;
+}
+
+#gameOverText {
+    color: #1f1030;
+    margin: 0.5rem;
+    font-size: 3rem;
+    text-shadow: 3px 3px 3px #7cb6a8;
+    text-transform: uppercase;
+}
